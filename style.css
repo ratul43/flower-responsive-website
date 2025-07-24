@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* navbar section  */
+
+.navbar-container{
+    width: 1140px;
+    height: 70px;
+    margin: auto 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-section-container{
+    gap: 590px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-list-container ul{
+    display: flex;
+    width: 410px;
+    gap: 40px;
+    align-items: center;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+    /* navbar section  */
+
+    .navbar-container, .nav-list-container ul{
+        width: 100%;
+    }
+
+    .nav-list-container{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .nav-list-container ul{
+        padding: 0px;
+    }
+    .navbar-container{
+        margin: 0px;
+    }
+    .navbar-section-container{
+        gap: 50%;
+        padding: 0px;
+    }
+
+    .cart-icon{
+        width: 110px;
+    }
+
+    .nav-list-container ul li:nth-child(-n+3){
+        display: none;
+    }
+}

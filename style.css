@@ -416,6 +416,10 @@ body{
         width: 100%;
     }
 
+    .navbar-container{
+        margin: 20px auto;
+        height: 100%;
+    }
     .nav-list-container{
         width: 100%;
         padding: 0px;

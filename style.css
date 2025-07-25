@@ -137,7 +137,34 @@
 
 
     /* banner section  */
+.banner-container{
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 60px auto;
+}
 
+.noto-serif-bold{
+    font-size: 30px;
+}
+
+.title-container{
+    width: 90%;
+}
+
+.img-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+
+}
+
+.img-container img{
+    width: 90%;
+}
 
 
 

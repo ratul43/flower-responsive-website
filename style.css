@@ -225,14 +225,33 @@
 }
 
 
+/* our plants section  */
 
 
+.plants-container{
+    width: 100%;
+    margin: 0px auto;
+}
 
 
+.item-card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
 
+.card{
+    width: 170px;   
+}
 
+.card img{
+    width: 170px;
+}
 
-
+.btn-cart{
+    width: 170px;
+}
 
 
 

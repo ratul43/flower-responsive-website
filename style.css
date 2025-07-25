@@ -210,6 +210,69 @@ body{
 
 
 
+/* footer section  */
+
+.footer-container{
+    width: 1140px;
+    margin: 20px 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+
+.footer-list-para{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 576px) {
 
     /* navbar section  */

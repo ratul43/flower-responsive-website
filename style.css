@@ -18,6 +18,15 @@
   font-size: 16px;
 }
 
+.inter-regular-deal-para {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.5);
+  font-style: normal;
+  font-size: 16px;
+}
+
 .inter-semibold {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -39,6 +48,38 @@
   font-optical-sizing: auto;
   font-weight: 700;
   font-size: 60px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.noto-serif-bold-deal-title {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.noto-serif-bold-deal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.noto-serif-bold-deal2 {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 40px;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -243,10 +284,83 @@ body{
 
 
 
+/* latest deal section  */
+
+.latest-deal-container{
+    width: 1140px;
+    margin: 120px 150px;
+}
+
+.latest-title-container{
+    justify-items: center;
+}
 
 
 
 
+.card-grid-deal{
+    display: grid;
+    width: 1140px;
+    height: 420px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 25px;
+}
+
+
+.card-1{
+    background-image: url('assets/deal-bloom.png');
+    width: 360px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-2{
+    background-image: url('assets/deal-zabo.png');
+    width: 750px;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    grid-row: span 2;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-3{
+    background-image: url('assets/deal-ana.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 360px;
+    height: 200px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.anchor {
+  color: white;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.anchor2{
+    color: #FFFFFF;
+  background-color: transparent;
+  font-size: 28px;
+  font-weight: bold;
+}
 
 
 

@@ -216,6 +216,22 @@
     margin-bottom: 20px;
 }
 
+
+.plant-img-container{
+    position: relative;
+}
+
+
+
+.badge{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: -110px;
+    right: -100px;
+}
+
+
 /* join section  */
 body{
     margin: 0px;
@@ -493,11 +509,6 @@ body{
     margin: 40px auto;
 }
 
-#badge img{
-    border: 1px solid black;
-    height: 25px;
-    width: 250px;
-}
 
 
 .plant-img-container img{

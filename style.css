@@ -18,6 +18,22 @@
   font-size: 16px;
 }
 
+.inter-semibold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.inter-medium {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+}
+
 .noto-serif-bold {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
@@ -84,11 +100,53 @@
 }
 
 
+/* our plants container  */
+
+.plants-container{
+    width: 1140px; 
+    margin: 120px 150px;
+    
+}
+
+
+
+.plants-title-container{
+    justify-items: center;
+    margin-bottom: 30px;
+}
 
 
 
 
 
+
+
+
+.item-card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 30px;
+    justify-items: center;
+}
+
+
+
+.card{
+    width: 270px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-cart{
+    width: 270px;
+    height: 50px;
+    border: none;
+    background-color: #E95A08;
+    color: white;
+}
 
 
 

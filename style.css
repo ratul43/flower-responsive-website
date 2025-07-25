@@ -481,7 +481,7 @@ body{
 
 
 .plants-container{
-    width: 100%;
+    width: 90%;
     margin: 0px auto;
 }
 
@@ -508,7 +508,7 @@ body{
 /* plants lover section  */
 
 .plants-lover-container{
-    width: 100%;
+    width: 90%;
     flex-direction: column;
     margin: 40px auto;
 }
@@ -562,7 +562,7 @@ body{
 /* latest deal section  */
 
 .latest-deal-container{
-    width: 100%;
+    width: 90%;
     height: 950px;
     margin: 0px auto;
 }
@@ -611,28 +611,6 @@ body{
   font-size: 16px;
   font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

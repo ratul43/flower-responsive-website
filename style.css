@@ -149,7 +149,7 @@
 }
 
 
-/* plnats lover section  */
+/* plants lover section  */
 
 .plants-lover-container{
     width: 1140px;
@@ -262,6 +262,22 @@
 .btn-cart{
     width: 170px;
 }
+
+/* plants lover section  */
+
+.plants-lover-container{
+    width: 100%;
+    flex-direction: column;
+    margin: 40px auto;
+}
+
+
+
+
+.plant-img-container img{
+    width: 100%;
+}
+
 
 
 

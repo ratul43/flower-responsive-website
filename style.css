@@ -44,6 +44,17 @@
     "wdth" 100;
 }
 
+.noto-serif-bold-mobile {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 50px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
 .primary-color{
     color: #E95A08;
 }
@@ -307,8 +318,27 @@ body{
     width: 100%;
 }
 
+/* join section  */
 
+.input-measure{
+    width: 320px;
+    height: 30px;
+    border: none;
+}
 
+.noto-serif-bold-mobile{
+    font-size: 20px;
+}
+.join-title{
+    width: 250px;
+}
 
+.input-measure{
+    width: 210px;
+}
+
+.btn-measure{
+    width: 100px;
+}
 
 }

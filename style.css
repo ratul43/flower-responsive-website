@@ -149,9 +149,19 @@
 }
 
 
+/* plnats lover section  */
 
+.plants-lover-container{
+    width: 1140px;
+    margin: 0px 150px;
+    display: flex;
+    gap: 60px;
+    justify-content: flex-start;
+}
 
-
+.plant-lover-para{
+    margin-bottom: 20px;
+}
 
 
 
